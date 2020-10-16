@@ -15,6 +15,8 @@
 		AF652FB1253705260064F92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF652FAF253705260064F92D /* LaunchScreen.storyboard */; };
 		AF652FBC253705270064F92D /* Messenger_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF652FBB253705270064F92D /* Messenger_AppTests.swift */; };
 		AF652FC7253705270064F92D /* Messenger_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF652FC6253705270064F92D /* Messenger_AppUITests.swift */; };
+		AF652FD9253706AE0064F92D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF652FD8253706AE0064F92D /* Login.swift */; };
+		AF652FDE253707540064F92D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF652FDD253707540064F92D /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AF652FC2253705270064F92D /* Messenger-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messenger-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF652FC6253705270064F92D /* Messenger_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger_AppUITests.swift; sourceTree = "<group>"; };
 		AF652FC8253705270064F92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF652FD8253706AE0064F92D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AF652FDD253707540064F92D /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		AF652F98253705250064F92D = {
 			isa = PBXGroup;
 			children = (
+				AF652FD7253706980064F92D /* Login */,
 				AF652FA3253705250064F92D /* Messenger-App */,
 				AF652FBA253705260064F92D /* Messenger-AppTests */,
 				AF652FC5253705270064F92D /* Messenger-AppUITests */,
@@ -126,6 +131,15 @@
 				AF652FC8253705270064F92D /* Info.plist */,
 			);
 			path = "Messenger-AppUITests";
+			sourceTree = "<group>";
+		};
+		AF652FD7253706980064F92D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF652FD8253706AE0064F92D /* Login.swift */,
+				AF652FDD253707540064F92D /* Storyboard.storyboard */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF652FB1253705260064F92D /* LaunchScreen.storyboard in Resources */,
+				AF652FDE253707540064F92D /* Storyboard.storyboard in Resources */,
 				AF652FAE253705260064F92D /* Assets.xcassets in Resources */,
 				AF652FAC253705250064F92D /* Main.storyboard in Resources */,
 			);
@@ -261,6 +276,7 @@
 				AF652FA9253705250064F92D /* ViewController.swift in Sources */,
 				AF652FA5253705250064F92D /* AppDelegate.swift in Sources */,
 				AF652FA7253705250064F92D /* SceneDelegate.swift in Sources */,
+				AF652FD9253706AE0064F92D /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
