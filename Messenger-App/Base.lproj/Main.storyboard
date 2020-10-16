@@ -19,7 +19,7 @@
                         <outlet property="_BtnLogin" destination="xeP-3B-hK3" id="trX-SQ-C2B"/>
                         <outlet property="_btnBackLogin" destination="Omu-fe-MV4" id="IDC-ip-kFe"/>
                         <outlet property="_btnRegister" destination="VWk-D1-gv7" id="Ayl-64-JbU"/>
-                        <outlet property="_linkRegister" destination="6Mz-MF-8eM" id="zhp-fa-5DR"/>
+                        <outlet property="_linkRegister" destination="g6x-L5-nKZ" id="hzQ-SJ-DcU"/>
                         <outlet property="_txtPassword" destination="Rdp-8v-ScX" id="4n7-NT-1v3"/>
                         <outlet property="_txtUsername" destination="DFk-At-oB0" id="ff9-Z7-hCs"/>
                         <outlet property="view" destination="FPL-ZC-5sC" id="UtC-IJ-ESH"/>
@@ -71,15 +71,6 @@
                                 <action selector="_ACLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8W-7g-8D8"/>
                             </connections>
                         </button>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Register?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Mz-MF-8eM">
-                            <rect key="frame" x="169" y="563" width="76" height="31"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <color key="textColor" systemColor="linkColor"/>
-                            <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
-                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                        </textView>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Forgot your password?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6UD-fm-k2J">
                             <rect key="frame" x="132" y="609" width="151" height="29"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -89,6 +80,14 @@
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             <dataDetectorType key="dataDetectorTypes" link="YES"/>
                         </textView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6x-L5-nKZ">
+                            <rect key="frame" x="180" y="573" width="57" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                            <state key="normal" title="Register?">
+                                <color key="titleColor" systemColor="linkColor"/>
+                            </state>
+                        </button>
                     </subviews>
                     <viewLayoutGuide key="safeArea" id="IXs-76-pms"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

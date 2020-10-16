@@ -16,7 +16,7 @@ class ViewController: UIViewController  {
     @IBOutlet var View_Register: UIView!
     @IBOutlet weak var _btnRegister: UIButton!
     
-    @IBOutlet weak var _linkRegister: UITextView!
+    @IBOutlet weak var _linkRegister: UIButton!
     
     @IBOutlet weak var _btnBackLogin: UIButton!
     override func viewDidLoad() {
@@ -27,7 +27,7 @@ class ViewController: UIViewController  {
     
     @IBAction func _ACLogin(_ sender: Any) {
         _txtUsername.text = "lalala"
-        if _linkRegister.isTracking == true {
+        if _linkRegister.i == true {
             View_Register.isHidden = true
         }
         
